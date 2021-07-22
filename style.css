@@ -2,3 +2,58 @@ html, body {
     margin: 0;
     padding: 0;
 }
+
+.genres
+{
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.movie
+{
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 500px;
+    flex-wrap: wrap;
+    height: 100px;
+    font-weight: 600;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.exception
+{
+    flex-grow: 10;
+}
+
+.action
+{
+    background: dodgerblue;
+}
+
+.thriller
+{
+    background: rgb(190, 178, 178);
+}
+
+.comedy
+{
+    background: rgb(255, 214, 30);
+}
+
+.horror
+{
+    background: black;
+    color: #fff;
+}
+
+.drama
+{
+    background: darkgrey;
+}
+
+.romance
+{
+    background: red;
+}
